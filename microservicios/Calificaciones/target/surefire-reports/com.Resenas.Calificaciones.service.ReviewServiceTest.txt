@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Resenas.Calificaciones.service.ReviewServiceTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.510 s -- in com.Resenas.Calificaciones.service.ReviewServiceTest
