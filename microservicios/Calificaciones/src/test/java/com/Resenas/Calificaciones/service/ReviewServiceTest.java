@@ -377,6 +377,35 @@ public class ReviewServiceTest {
         assertTrue(resultado.getId().startsWith("review-"));
     }
 
+    @Test
+    public void testCreateReview_RatingNulo_LanzaExcepcion() {
+        // DADO: un ReviewRequest sin rating
+        ReviewRequest request = new ReviewRequest();
+        request.setProductId("cpu-ryzen-5600");
+        request.setRating(null);
+        request.setComment("Comentario");
+
+        // CUANDO/ENTONCES: lanza IllegalArgumentException
+        IllegalArgumentException ex = assertThrows(IllegalArgumentException.class, () -> {
+            reviewService.createReview(request);
+        });
+        assertTrue(ex.getMessage().contains("entre 1 y 5"));
+    }
+
+    @Test
+    public void testCreateReview_RatingInvalido_LanzaExcepcion() {
+        // DADO: un ReviewRequest con rating inválido
+        ReviewRequest request = new ReviewRequest();
+        request.setProductId("cpu-ryzen-5600");
+        request.setRating(6); // Rating mayor a 5
+        request.setComment("Comentario");
+
+        // CUANDO/ENTONCES: lanza IllegalArgumentException
+        assertThrows(IllegalArgumentException.class, () -> {
+            reviewService.createReview(request);
+        });
+    }
+
     // ==================== TESTS PARA updateReview() ====================
 
     @Test
@@ -443,6 +472,19 @@ public class ReviewServiceTest {
         // ENTONCES: mantiene el author original
         assertEquals("Pedro Original", resultado.getAuthor());
         assertEquals(5, resultado.getRating());
+    }
+
+    @Test
+    public void testUpdateReview_RatingInvalido_LanzaExcepcion() {
+        // DADO: un ReviewRequest con rating inválido
+        ReviewRequest request = new ReviewRequest();
+        request.setRating(0); // Rating menor a 1
+        request.setComment("Comentario");
+
+        // CUANDO/ENTONCES: lanza IllegalArgumentException antes de buscar la reseña
+        assertThrows(IllegalArgumentException.class, () -> {
+            reviewService.updateReview("review-001", "cpu-ryzen-5600", request);
+        });
     }
 
     // ==================== TESTS PARA deleteReview(String, String) ====================

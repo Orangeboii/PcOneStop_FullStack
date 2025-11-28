@@ -168,6 +168,11 @@ public class ReviewService {
     
     // Crear una nueva reseña (usando DTOs)
     public ReviewResponse createReview(ReviewRequest request) {
+        // Validar rating antes de crear
+        if (request.getRating() == null || request.getRating() < 1 || request.getRating() > 5) {
+            throw new IllegalArgumentException("La calificación debe ser entre 1 y 5.");
+        }
+        
         Review review = toEntity(request);
         
         // Generar ID si no existe
@@ -181,6 +186,11 @@ public class ReviewService {
     
     // Actualizar una reseña existente (usando DTOs)
     public ReviewResponse updateReview(String reviewId, String productId, ReviewRequest request) {
+        // Validar rating antes de actualizar
+        if (request.getRating() == null || request.getRating() < 1 || request.getRating() > 5) {
+            throw new IllegalArgumentException("La calificación debe ser entre 1 y 5.");
+        }
+        
         Review review = reviewRepository.findByIdAndProductId(reviewId, productId);
         
         if (review == null) {
