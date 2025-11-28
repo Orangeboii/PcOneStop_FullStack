@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.Gestion.Usuarios.UsuariosApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.434 s -- in com.Gestion.Usuarios.UsuariosApplicationTests
