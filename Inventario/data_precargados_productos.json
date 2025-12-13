@@ -1,0 +1,407 @@
+[
+  {
+    "name": "GeForce RTX 4070",
+    "brand": "MSI",
+    "model": "Ventus 3X OC",
+    "category": "GPU",
+    "price": 899990.00,
+    "stock": 8,
+    "description": "Tarjeta gráfica NVIDIA RTX 4070 con 12GB GDDR6X. Rendimiento excepcional para gaming en 1440p y 4K."
+  },
+  {
+    "name": "GeForce RTX 4060 Ti",
+    "brand": "ASUS",
+    "model": "DUAL OC",
+    "category": "GPU",
+    "price": 649990.00,
+    "stock": 5,
+    "description": "Tarjeta gráfica NVIDIA RTX 4060 Ti con 16GB GDDR6. Ideal para gaming en 1080p y 1440p."
+  },
+  {
+    "name": "Radeon RX 7800 XT",
+    "brand": "AMD",
+    "model": "Reference",
+    "category": "GPU",
+    "price": 799990.00,
+    "stock": 10,
+    "description": "Tarjeta gráfica AMD Radeon RX 7800 XT con 16GB GDDR6. Excelente relación precio-rendimiento."
+  },
+  {
+    "name": "GeForce RTX 4090",
+    "brand": "NVIDIA",
+    "model": "Founders Edition",
+    "category": "GPU",
+    "price": 1999990.00,
+    "stock": 2,
+    "description": "Tarjeta gráfica flagship NVIDIA RTX 4090 con 24GB GDDR6X. Máximo rendimiento para gaming y creación de contenido."
+  },
+  {
+    "name": "Radeon RX 7600",
+    "brand": "Sapphire",
+    "model": "Pulse OC",
+    "category": "GPU",
+    "price": 449990.00,
+    "stock": 7,
+    "description": "Tarjeta gráfica AMD Radeon RX 7600 con 8GB GDDR6. Perfecta para gaming en 1080p."
+  },
+  {
+    "name": "Intel Core i9-14900K",
+    "brand": "Intel",
+    "model": "Core i9-14900K",
+    "category": "CPU",
+    "price": 699990.00,
+    "stock": 6,
+    "description": "Procesador Intel Core i9-14900K de 14ª generación. 24 núcleos (8P+16E), hasta 6.0GHz. Socket LGA1700."
+  },
+  {
+    "name": "AMD Ryzen 7 7800X3D",
+    "brand": "AMD",
+    "model": "Ryzen 7 7800X3D",
+    "category": "CPU",
+    "price": 599990.00,
+    "stock": 9,
+    "description": "Procesador AMD Ryzen 7 7800X3D con tecnología 3D V-Cache. 8 núcleos, 16 hilos. Socket AM5."
+  },
+  {
+    "name": "Intel Core i5-13600K",
+    "brand": "Intel",
+    "model": "Core i5-13600K",
+    "category": "CPU",
+    "price": 399990.00,
+    "stock": 10,
+    "description": "Procesador Intel Core i5-13600K de 13ª generación. 14 núcleos (6P+8E), hasta 5.1GHz. Excelente relación precio-rendimiento."
+  },
+  {
+    "name": "AMD Ryzen 5 7600X",
+    "brand": "AMD",
+    "model": "Ryzen 5 7600X",
+    "category": "CPU",
+    "price": 299990.00,
+    "stock": 8,
+    "description": "Procesador AMD Ryzen 5 7600X de 6 núcleos y 12 hilos. Socket AM5. Ideal para gaming y productividad."
+  },
+  {
+    "name": "Intel Core i7-14700K",
+    "brand": "Intel",
+    "model": "Core i7-14700K",
+    "category": "CPU",
+    "price": 549990.00,
+    "stock": 4,
+    "description": "Procesador Intel Core i7-14700K de 14ª generación. 20 núcleos (8P+12E), hasta 5.6GHz."
+  },
+  {
+    "name": "Corsair Vengeance DDR5 32GB",
+    "brand": "Corsair",
+    "model": "CMK32GX5M2B5600C36",
+    "category": "RAM",
+    "price": 199990.00,
+    "stock": 10,
+    "description": "Kit de memoria DDR5 32GB (2x16GB) a 5600MHz CL36. RGB opcional."
+  },
+  {
+    "name": "G.Skill Trident Z5 DDR5 32GB",
+    "brand": "G.Skill",
+    "model": "F5-6000J3636F16GX2-TZ5RK",
+    "category": "RAM",
+    "price": 219990.00,
+    "stock": 7,
+    "description": "Kit de memoria DDR5 32GB (2x16GB) a 6000MHz CL36. Diseño RGB premium."
+  },
+  {
+    "name": "Kingston Fury Beast DDR5 16GB",
+    "brand": "Kingston",
+    "model": "KF556C40BB-16",
+    "category": "RAM",
+    "price": 99990.00,
+    "stock": 9,
+    "description": "Kit de memoria DDR5 16GB (2x8GB) a 5600MHz CL40. Sin RGB, excelente precio."
+  },
+  {
+    "name": "Corsair Dominator Platinum DDR5 64GB",
+    "brand": "Corsair",
+    "model": "CMT64GX5M2B6400C32",
+    "category": "RAM",
+    "price": 499990.00,
+    "stock": 3,
+    "description": "Kit de memoria DDR5 64GB (2x32GB) a 6400MHz CL32. Máximo rendimiento."
+  },
+  {
+    "name": "TeamGroup T-Force Delta DDR5 32GB",
+    "brand": "TeamGroup",
+    "model": "TF5D532G6000HC38ADC01",
+    "category": "RAM",
+    "price": 189990.00,
+    "stock": 6,
+    "description": "Kit de memoria DDR5 32GB (2x16GB) a 6000MHz CL38. RGB personalizable."
+  },
+  {
+    "name": "Samsung 990 PRO 1TB",
+    "brand": "Samsung",
+    "model": "MZ-V9P1T0BW",
+    "category": "SSD",
+    "price": 199990.00,
+    "stock": 8,
+    "description": "SSD NVMe PCIe 4.0 de 1TB. Velocidades de lectura hasta 7450 MB/s y escritura hasta 6900 MB/s."
+  },
+  {
+    "name": "WD Black SN850X 2TB",
+    "brand": "Western Digital",
+    "model": "WDS200T2X0E",
+    "category": "SSD",
+    "price": 349990.00,
+    "stock": 5,
+    "description": "SSD NVMe PCIe 4.0 de 2TB. Velocidades de lectura hasta 7300 MB/s. Ideal para gaming."
+  },
+  {
+    "name": "Crucial P5 Plus 1TB",
+    "brand": "Crucial",
+    "model": "CT1000P5PSSD8",
+    "category": "SSD",
+    "price": 149990.00,
+    "stock": 10,
+    "description": "SSD NVMe PCIe 4.0 de 1TB. Excelente relación precio-rendimiento. Velocidades hasta 6600 MB/s."
+  },
+  {
+    "name": "Kingston NV2 2TB",
+    "brand": "Kingston",
+    "model": "SNV2S/2000G",
+    "category": "SSD",
+    "price": 149990.00,
+    "stock": 7,
+    "description": "SSD NVMe PCIe 4.0 de 2TB. Económico y confiable. Velocidades hasta 3500 MB/s."
+  },
+  {
+    "name": "Seagate FireCuda 530 1TB",
+    "brand": "Seagate",
+    "model": "ZP1000GM30013",
+    "category": "SSD",
+    "price": 219990.00,
+    "stock": 4,
+    "description": "SSD NVMe PCIe 4.0 de 1TB. Velocidades de lectura hasta 7300 MB/s. Incluye disipador térmico."
+  },
+  {
+    "name": "ASUS ROG Strix X670E-E Gaming",
+    "brand": "ASUS",
+    "model": "ROG STRIX X670E-E GAMING WIFI",
+    "category": "Motherboard",
+    "price": 699990.00,
+    "stock": 6,
+    "description": "Placa base AMD AM5 para Ryzen 7000. Chipset X670E, WiFi 6E, PCIe 5.0, DDR5."
+  },
+  {
+    "name": "MSI MAG B650 Tomahawk",
+    "brand": "MSI",
+    "model": "MAG B650 TOMAHAWK WIFI",
+    "category": "Motherboard",
+    "price": 349990.00,
+    "stock": 9,
+    "description": "Placa base AMD AM5. Chipset B650, WiFi 6, PCIe 4.0, DDR5. Excelente para gaming."
+  },
+  {
+    "name": "Gigabyte Z790 Aorus Elite AX",
+    "brand": "Gigabyte",
+    "model": "Z790 AORUS ELITE AX",
+    "category": "Motherboard",
+    "price": 449990.00,
+    "stock": 5,
+    "description": "Placa base Intel LGA1700. Chipset Z790, WiFi 6E, PCIe 5.0, DDR5."
+  },
+  {
+    "name": "ASRock B650M Pro4",
+    "brand": "ASRock",
+    "model": "B650M Pro4",
+    "category": "Motherboard",
+    "price": 199990.00,
+    "stock": 8,
+    "description": "Placa base AMD AM5 micro-ATX. Chipset B650, PCIe 4.0, DDR5. Económica y confiable."
+  },
+  {
+    "name": "MSI MPG Z790 Carbon WiFi",
+    "brand": "MSI",
+    "model": "MPG Z790 CARBON WIFI",
+    "category": "Motherboard",
+    "price": 599990.00,
+    "stock": 3,
+    "description": "Placa base Intel LGA1700 premium. Chipset Z790, WiFi 6E, PCIe 5.0, RGB."
+  },
+  {
+    "name": "Corsair RM850x 850W",
+    "brand": "Corsair",
+    "model": "CP-9020180-NA",
+    "category": "PSU",
+    "price": 199990.00,
+    "stock": 10,
+    "description": "Fuente de poder modular 850W 80 Plus Gold. Silenciosa y eficiente."
+  },
+  {
+    "name": "Seasonic Focus GX-750 750W",
+    "brand": "Seasonic",
+    "model": "SSR-750FX",
+    "category": "PSU",
+    "price": 179990.00,
+    "stock": 7,
+    "description": "Fuente de poder modular 750W 80 Plus Gold. Confiable y con garantía extendida."
+  },
+  {
+    "name": "EVGA SuperNOVA 1000 G5",
+    "brand": "EVGA",
+    "model": "220-G5-1000-X1",
+    "category": "PSU",
+    "price": 299990.00,
+    "stock": 4,
+    "description": "Fuente de poder modular 1000W 80 Plus Gold. Ideal para sistemas high-end."
+  },
+  {
+    "name": "be quiet! Straight Power 11 750W",
+    "brand": "be quiet!",
+    "model": "BN295",
+    "category": "PSU",
+    "price": 219990.00,
+    "stock": 6,
+    "description": "Fuente de poder modular 750W 80 Plus Platinum. Ultra silenciosa."
+  },
+  {
+    "name": "Cooler Master MWE Gold 650W",
+    "brand": "Cooler Master",
+    "model": "MPE-6501-ACAAG-US",
+    "category": "PSU",
+    "price": 99990.00,
+    "stock": 9,
+    "description": "Fuente de poder modular 650W 80 Plus Gold. Excelente relación precio-calidad."
+  },
+  {
+    "name": "Corsair 4000D Airflow",
+    "brand": "Corsair",
+    "model": "CC-9011200-WW",
+    "category": "Case",
+    "price": 149990.00,
+    "stock": 8,
+    "description": "Gabinete mid-tower con excelente flujo de aire. Compatible con E-ATX, ATX, mATX, mITX."
+  },
+  {
+    "name": "Fractal Design Define 7",
+    "brand": "Fractal Design",
+    "model": "FD-C-DEF7C-01",
+    "category": "Case",
+    "price": 199990.00,
+    "stock": 5,
+    "description": "Gabinete full-tower silencioso. Espacioso y con excelente gestión de cables."
+  },
+  {
+    "name": "NZXT H5 Flow",
+    "brand": "NZXT",
+    "model": "CA-H52FB-01",
+    "category": "Case",
+    "price": 129990.00,
+    "stock": 10,
+    "description": "Gabinete mid-tower con diseño minimalista. Excelente ventilación y construcción."
+  },
+  {
+    "name": "Lian Li O11 Dynamic EVO",
+    "brand": "Lian Li",
+    "model": "O11DEX",
+    "category": "Case",
+    "price": 249990.00,
+    "stock": 3,
+    "description": "Gabinete mid-tower premium con diseño único. Ideal para builds con water cooling."
+  },
+  {
+    "name": "Phanteks Eclipse P400A",
+    "brand": "Phanteks",
+    "model": "PH-EC400ATG_BK01",
+    "category": "Case",
+    "price": 119990.00,
+    "stock": 7,
+    "description": "Gabinete mid-tower con mesh front panel. Excelente flujo de aire y precio."
+  },
+  {
+    "name": "Noctua NH-D15",
+    "brand": "Noctua",
+    "model": "NH-D15",
+    "category": "Cooler",
+    "price": 149990.00,
+    "stock": 9,
+    "description": "Cooler de aire de doble torre. Máximo rendimiento y silencio. Compatible con todos los sockets modernos."
+  },
+  {
+    "name": "Corsair iCUE H150i Elite",
+    "brand": "Corsair",
+    "model": "CW-9060071-WW",
+    "category": "Cooler",
+    "price": 299990.00,
+    "stock": 6,
+    "description": "AIO water cooler 360mm con RGB. Pantalla LCD integrada. Excelente para overclocking."
+  },
+  {
+    "name": "be quiet! Dark Rock Pro 4",
+    "brand": "be quiet!",
+    "model": "BK022",
+    "category": "Cooler",
+    "price": 129990.00,
+    "stock": 8,
+    "description": "Cooler de aire de doble torre ultra silencioso. Diseño elegante y rendimiento excelente."
+  },
+  {
+    "name": "Arctic Liquid Freezer II 280",
+    "brand": "Arctic",
+    "model": "ACFRE00068A",
+    "category": "Cooler",
+    "price": 179990.00,
+    "stock": 5,
+    "description": "AIO water cooler 280mm. Excelente relación precio-rendimiento. Sin RGB."
+  },
+  {
+    "name": "Thermalright Peerless Assassin 120",
+    "brand": "Thermalright",
+    "model": "PA120",
+    "category": "Cooler",
+    "price": 69990.00,
+    "stock": 10,
+    "description": "Cooler de aire de doble torre económico. Excelente rendimiento por su precio."
+  },
+  {
+    "name": "Logitech G Pro X Superlight",
+    "brand": "Logitech",
+    "model": "910-005631",
+    "category": "Peripheral",
+    "price": 149990.00,
+    "stock": 10,
+    "description": "Mouse inalámbrico gaming ultra ligero. Sensor HERO 25K. Batería de larga duración."
+  },
+  {
+    "name": "Razer DeathAdder V3 Pro",
+    "brand": "Razer",
+    "model": "RZ01-04630200-R3M1",
+    "category": "Peripheral",
+    "price": 159990.00,
+    "stock": 7,
+    "description": "Mouse inalámbrico gaming ergonómico. Sensor Focus Pro 30K. Diseño para diestros."
+  },
+  {
+    "name": "Corsair K70 RGB TKL",
+    "brand": "Corsair",
+    "model": "CH-9119014-NA",
+    "category": "Peripheral",
+    "price": 199990.00,
+    "stock": 5,
+    "description": "Teclado mecánico gaming tenkeyless. Switches Cherry MX. RGB per-key."
+  },
+  {
+    "name": "SteelSeries Arctis 7P+",
+    "brand": "SteelSeries",
+    "model": "61510",
+    "category": "Peripheral",
+    "price": 249990.00,
+    "stock": 4,
+    "description": "Auriculares inalámbricos gaming multiplataforma. Sonido surround 7.1. Batería de 30 horas."
+  },
+  {
+    "name": "HyperX Cloud Alpha",
+    "brand": "HyperX",
+    "model": "HX-HSCA-RD/EM",
+    "category": "Peripheral",
+    "price": 99990.00,
+    "stock": 8,
+    "description": "Auriculares gaming con cable. Sonido estéreo de alta calidad. Micrófono desmontable."
+  }
+]
